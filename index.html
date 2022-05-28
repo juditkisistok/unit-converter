@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+<main>
+    <div class="conv-body">
+        <div class="gradient-head">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <div class="user-input">
+                <input type="number" id="number-data" value="20" oninput="allConv(value)">
+                <label for="number-data">Type a number above</label>
+            </div>
+        </div>
+        <div class="converter">
+            <p class="title">Length (Meter/Feet)</p>
+            <p id="length-conversion"></p>
+            <p class="title">Volume (Liters/Gallons)</p>
+            <p id="volume-conversion"></p>
+            <p class="title">Mass (Kilograms/Pounds)</p>
+            <p id="mass-conversion"></p>
+        </div>
+    </div>
+</main>
+<script src="index.js"></script>
+</body>
+</html>

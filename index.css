@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1c1c1c;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conv-body {
+    width: 550px;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0 0 50px 20px #393939;
+    border-radius: 30px;
+}
+
+.gradient-head {
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    color: #ffffff;
+    text-align: center;
+    padding: 45px 45px 20px 45px;
+    border-radius: 30px 30px 0 0;
+}
+
+.gradient-head h1 {
+    font-size: 22px;
+    letter-spacing: -0.05em;
+    margin: 0;
+}
+
+.converter {
+    background: #1F2937;
+    padding: 55px;
+    border-radius: 0 0 30px 30px;
+}
+
+.converter p {
+    color: #D2D2D2;
+}
+
+.converter .title {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.converter p:nth-of-type(2n) {
+    margin-bottom: 25px;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+input {
+    background: transparent;
+    border: none;
+    max-width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 100px;
+    margin: 20px 0 0 0;
+    font-family: inherit;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+label {
+    border-top: 2px solid #ffffff;
+    font-style: italic;
+    font-size: 0.9em;
+    padding-top: 10px;
+}
